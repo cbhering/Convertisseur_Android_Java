@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorArrierePlan">#ECCA9A</color>
+    <color name="colorNomPrenom">#ED850F0F</color>
+    <color name="colorGrasset">#172266</color>
+    <color name="colorNomProgramme">#0F5C58</color>
+    <color name="colorNomCours">#CB200C0C</color>
+    <color name="colorEnseignant">#0D031F</color>
+    <color name="colorDateRemise">#223186</color>
+    <color name="colorButtonContinuer">#141C22</color>
+    <color name="colorArrierePlanButton">#F31BB1B1</color>
+    <color name="colorMenuTextView">#F7661212</color>
+    <color name="colorButtonsMenu">#F5030101</color>
+    <color name="colorTitreConversion">#ED850F0F</color>
+    <color name="colorSousTitreConversion">#0F5C58</color>
+    <color name="colorRadio">#172266</color>
+    <color name="colorResultat">#0F5C58</color>
+    <color name="colorSwitch">#172266</color>
+    <color name="textViewSwitch">#ED850F0F</color>
+
+</resources>

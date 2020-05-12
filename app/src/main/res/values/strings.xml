@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CBhering_PNM_TP1</string>
+    <string name="nomPrenom">"Conrado Bhering"</string>
+    <string name="grasset">"Institut Grasset"</string>
+    <string name="nomProgramme">"DEC en Techniques de l’Informatique Profil Programmation Nouveaux Médias"</string>
+    <string name="nomCours">"Programmation Native Mobile"</string>
+    <string name="tpEtEnseignant">"TP1 - Remis à Pascal Guy"</string>
+    <string name="dateRemise">"2020-03-02"</string>
+    <string name="buttonContinuer">"CONTINUER VERS LE CONVERTISSEUR"</string>
+    <string name="menuConvertisseur">"CONVERTISSEUR D'UNITÉ DE MESURE"</string>
+    <string name="menuPrincipal">"Menu Principal"</string>
+    <string name="buttonTemperature">"TEMPÉRATURE"</string>
+    <string name="buttonDistance">"DISTANCE"</string>
+    <string name="buttonMasse">"MASSE"</string>
+    <string name="buttonQuitter">"QUITTER"</string>
+    <string name="textViewTemperature">"TEMPÉRATURE"</string>
+    <string name="textViewTemperatureSousTitre">"Température à convertir"</string>
+    <string name="radioCelsius">"Celsius"</string>
+    <string name="radioFahrenheit">"Fahrenheit"</string>
+    <string name="radioKelvin">"Kelvin"</string>
+    <string name="temperatureResultat">"Résultat"</string>
+    <string name="texteTemporaireResultat">"-"</string>
+    <string name="textViewDistance">"DISTANCE"</string>
+    <string name="textViewDistanceSousTitre">"Entrez la valeur à convertir"</string>
+    <string name="radioCM">"cm"</string>
+    <string name="radioM">"m"</string>
+    <string name="radioKM">"km"</string>
+    <string name="radioPOUCE">"pouce"</string>
+    <string name="radioPIED">"pied"</string>
+    <string name="radioMILE">"mile"</string>
+    <string name="textViewMasse">"MASSE"</string>
+    <string name="textViewMasseSousTitre">"Entrez la valeur à convertir"</string>
+    <string name="viewSwitch">"Switch"</string>
+    <string name="switchKG">"KG -> LIVRE"</string>
+    <string name="switchLIVRE">"LIVRE -> KG"</string>
+</resources>

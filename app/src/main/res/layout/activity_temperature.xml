@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorArrierePlan"
+    tools:context=".ActivityTemperature">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="@string/textViewTemperature"
+        android:textAlignment="center"
+        android:textColor="@color/colorTitreConversion"
+        android:textSize="24dp"
+        app:fontFamily="@font/alegreya_sc_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="@string/textViewTemperatureSousTitre"
+        android:textAlignment="center"
+        android:textColor="@color/colorSousTitreConversion"
+        android:textSize="18dp"
+        app:fontFamily="@font/alegreya_sc_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="201dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDebut2"
+        android:layout_width="149dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+        <RadioButton
+            android:id="@+id/radioButtonC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioCelsius"
+            android:textColor="@color/colorRadio"
+            app:fontFamily="@font/alegreya_sans_sc_bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioFahrenheit"
+            android:textColor="@color/colorRadio"
+            app:fontFamily="@font/alegreya_sans_sc_bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioKelvin"
+            android:textColor="@color/colorRadio"
+            app:fontFamily="@font/alegreya_sans_sc_bold" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="99dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="@string/temperatureResultat"
+        android:textAlignment="center"
+        android:textColor="@color/colorResultat"
+        android:textSize="18dp"
+        app:fontFamily="@font/alegreya_sc_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDestin2"
+        android:layout_width="149dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texteTemporaireResultat2"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+        <RadioButton
+            android:id="@+id/radioButtonVersC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioCelsius"
+            android:textColor="@color/colorRadio"
+            app:fontFamily="@font/alegreya_sans_sc_bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonVersF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioFahrenheit"
+            android:textColor="@color/colorRadio"
+            app:fontFamily="@font/alegreya_sans_sc_bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonVersK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioKelvin"
+            android:textColor="@color/colorRadio"
+            app:fontFamily="@font/alegreya_sans_sc_bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/texteTemporaireResultat2"
+        android:layout_width="201dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="57dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/texteTemporaireResultat"
+        android:textColor="@color/colorResultat"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
